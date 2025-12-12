@@ -25,7 +25,7 @@ function addProductToDOM(p) {
     container.className= 'container';
 
     const img= document.createElement('img');
-    img.src= `./img/${p.bild}`;
+    img.src= `/img/${p.bild}`;
     img.alt= p.bild;
 
     const name= document.createElement('h3');
