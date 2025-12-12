@@ -1,0 +1,8 @@
+
+
+[
+    { "name": "Kerzenhalter", "preis": 12.5, "bild": "kerzenhalter.png" },
+    { "name": "Wanddeko", "preis": 25.0, "bild": "wanddeko.jpg" },
+    { "name": "Kerzenhalter2", "preis": 10, "bild": "kerzenhalter.png" },
+    { "name": "Wanddeko2", "preis": 20, "bild": "wanddeko.jpg" }
+]

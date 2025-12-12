@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nasim Online Shop</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="shop-header">
+        <h1>Nasim Handmade Shop</h1>
+        <div class="cart">
+            🛒 <span id="cart-count">0</span>
+        </div>
+    </header>
+    
+    <div id="cart-modal" class="cart-modal hidden">
+        <div class="cart-content">
+            <h2>🛒 Ihr Warenkorb</h2>
+
+            <div id="cart-items"></div>
+
+            <p class="cart-total">Gesamt: <span id="cart-total-price">0 €</span></p>
+
+            <button id="clear-cart" class="clear-btn">Warenkorb leeren</button>
+            <button id="close-cart" class="close-btn">Schließen</button>
+        </div>
+    </div>
+
+    <main class="product-grid"></main>
+
+    <footer>
+        <p>© 2025 Nasim Online Shop</p>
+    </footer> 
+   
+    <script src="./onlineShop.js"></script>
+</body>
+</html>
